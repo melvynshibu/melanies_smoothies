@@ -1,4 +1,4 @@
-'''
+
 # Import python packages
 import streamlit as st
 from snowflake.snowpark.functions import col
@@ -64,8 +64,8 @@ if ingredients_list:
  
 #smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")  
 #sf_df=st.dataframe(data=smoothiefroot_response.json(),use_container_width=True)
-'''
 
+'''
 # -*- coding: utf-8 -*-
 # Import python packages
 import streamlit as st
@@ -148,4 +148,4 @@ if ingredients_list:
                 session.sql(insert_sql).collect()
                 st.success("Your Smoothie is ordered! ✅")
             except Exception as e:
-                st.error(f"Insert failed: {e}")
+                st.error(f"Insert failed: {e}") '''
